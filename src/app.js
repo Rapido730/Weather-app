@@ -8,6 +8,8 @@ const forecast = require('./utils/forecast')
 const app = express()
 const port = process.env.PORT || 3000
 
+
+
 // Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
@@ -24,14 +26,14 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('',(req,res) => {
     res.render('index', {
-        title: 'Weather',
+        title: 'Weather Forecaster',
         name : 'amit'
     })
 })
 
 app.get('/about',(req,res) => {
     res.render('about', {
-        title : 'About me',
+        title : 'About',
         name : 'amit'
     })
 })

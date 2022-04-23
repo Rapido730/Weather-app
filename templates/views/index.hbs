@@ -3,15 +3,26 @@
 <html>
 
 <head>
-    <title>weather</title>
+    <title>Weather Forecaster</title>
+    
     <link rel="icon" href="/img/icon.png">
     <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
+        <style>
+        body {
+            background-image: url('img/58343.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        </style>
         <div class = "main-content">
              {{>header}}
              <p>Use this site to get your weather!</p>
-
+             <p>Enter location down below in the search box.</p>
+             
              <form>
                  <input placeholder="location">
                  <button>Search</button>

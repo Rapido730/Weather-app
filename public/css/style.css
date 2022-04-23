@@ -1,8 +1,10 @@
+
+
 body {
     color: #333333 ;
     font-family: Arial;
     max-width: 650px;
-    margin: 0 auto;
+    margin: 15px auto;
     padding: 0 16px;
 
     display: flex;
@@ -32,9 +34,13 @@ h1 {
 }
 
 header a {
-    color: #888888;
-    margin-right: 16px;
+    color: #000000;
+    margin: 16px;
     text-decoration: none;
+}
+
+p {
+    color: #000000;
 }
 
 .protrait {
@@ -49,8 +55,8 @@ input {
 button {
     cursor: pointer;
     border: 1px solid #888888;
-    background: #888888;
-    color:white;
+    background: #5fd64c;
+    color:#000000;
     padding: 8px;
 
 }
